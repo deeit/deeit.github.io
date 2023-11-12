@@ -1,1 +1,1 @@
-Hello, Daniel (Schroder) here, please access CV [ here. ](https://deeit.gituh.io.)
+Hello, Daniel (Schroder) here, please access CV [ here. ](https://deeit.gitub.io.)
