@@ -38,8 +38,7 @@ sidebar:
           level: Native
 
         - idiom: Afrikaanse
-          level: Professional
-
+          level: Expert
 
     interests:
       title: Interests
@@ -56,24 +55,27 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Decades IT experience,  two universities, four ISPs, numerous schools, space science project experience, built multiple computer labs, rolled out IT infrastructure in the financial industry, built and administrated mail systems, in four centers in .za, built and administrated active directory and some azure infrastructure including security and policies.
+      Data-center experience, hardware deployment and administration, from appliances to servers, configuring, detailed know-how knowledge of all aspects with regard to the administration of ISP’s infrastructure, written monitoring tools and with heads up notifications, proactive fault solving,<br>
+      Working knowledge running wisps, this includes routing protocols used, different brands (mikrotik/ubiquity primarily), designing, configuring and stabilizing links, and all the related monitoring needed behind them and off course last tier support after escalations, newest skill is manually allocating spectrum.
+      Working knowledge of building and administrating wireless device networks ( controllers ), especially for tplink (omada) and ubnt/ubiquity as well as experience with all the devices that connect to these controllers.<br>
+      Build and deploy VoIP solutions, as well as manually building and designing dialplans for software PABX’s, as well as configuring networks to support VoIP, including the Qos needed on infrastructure , including testing and load testing. As well administrating VoIP networks, especially the vlanning, and making sure Qos is operational both on the Wan and Lan links, switches and routers.<br>
+      Extensive network experience and know how, all well-known routers, and protocols, configuring, testing, monitoring and deploying, including protocol fine tuning on servers, router access list administration, and in depth knowledge and deployments of bandwidth and queuing management protocols, most recent RouterOs (Mikrotik).
+      In depth knowledge of building firewalls on most routers, Os’s and devices, as well as theory, and expert knowledge of Tcp/Ip, and it’s relation to firewalls, and experience with high capacity firewalls (+30k states) as well as fine tuning, including implementing QoS/DSCP and able to troubleshoot and correct most user/system and throughput issues. Interests and applications using pcq/sfq queuing testing of googles fq_codel.<br>
+      Enjoy building hardware, designing networks, segmenting networks, opensource projects and network policies with extensive experience with troubleshooting machines, networks, frameworks and OS issues that need escalations.
+      Written polices for Active Directory, specifically for issues like internet access, traffic prioritization, traffic routing and user/workstation internet and network access limits as well as RADIUS integration, for bandwidth caps, type of access over routers, switches and Wi-Fi controllers on the same network.<br>
+      Current interests in development is http 2, CSS, WASM and learning Rust in a WASM/WSI environment built with docker on linux cloud based or free standing, for all hosting.
 education:
-    title: Education
+    title: Education (employment)
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Lab manager
+        university: University of Cape Town
+        time: 2004-2008
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          Built and ran two labs in the maths and applied maths building
+          at the universaty of cape town, one lab was the National astrophyscis
+          space science programme and the other lab was for the senion maths
+          students under maths and applied maths at UCT.
             - Bullet point
             - Bullet point
       - degree: BSc in Applied Mathematics
