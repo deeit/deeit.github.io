@@ -123,6 +123,8 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
+    jekyll-glossary_tooltip (1.5.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -263,6 +265,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll
+  jekyll-glossary_tooltip (~> 1.5)
   webrick
 
 BUNDLED WITH

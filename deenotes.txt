@@ -1,0 +1,2 @@
+bundle config set --local path 'vendor/bundle'
+bundle add --group jekyll_plugins jekyll-glossary_tooltip
