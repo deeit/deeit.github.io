@@ -1,2 +1,5 @@
 bundle config set --local path 'vendor/bundle'
 bundle add --group jekyll_plugins jekyll-glossary_tooltip
+https://cloudcannon.com/cheat-sheets/jekyll/
+find . -name jekyll-glossary_tooltip.css -print
+[universities](## "UCT UWC")
