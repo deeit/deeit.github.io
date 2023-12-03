@@ -66,13 +66,8 @@ career-profile:
       ------------------------------------------<br>
       [Decades](## "1997-2023") IT experience, two [universities](## "UCT, UWC some Pentech"),
       [four ISPs](## "Internet Africa/MWEB/eNetworks/vanilla/sdwconnect"), numerous schools,
-      space science project experience, built [multiple computer labs](## "National
-      Astrophysics Space Science Programme, Maths UCT and Applied maths senior lab, UCT"), rolled out IT
-      infrastructure in the [financial industry](## "Maitland TRUST South Africa"),
-      built and administrated mail systems, in
-      [four centers](## "Maitland Trust - Cape Town, Durban, Johannesburg, Compuscan now Experian - techno park")
-      in .za, built and administrated active directory and some azure infrastructure including
-      security and policies.<br>
+      space science project experience, built [multiple computer labs](## "National Astrophysics Space Science Programme, Maths UCT and Applied maths senior lab, UCT"), rolled out IT
+      infrastructure in the [financial industry](## "Maitland TRUST South Africa"), built and administrated mail systems, in [four centers](## "Maitland Trust - Cape Town, Durban, Johannesburg, Compuscan now Experian - techno park") in .za, built and administrated active directory and some azure infrastructure including security and policies.<br>
       Data-center experience, hardware deployment and administration, from
       appliances to servers, configuring, detailed know-how knowledge of all
       aspects with regard to the administration of ISP’s infrastructure,
@@ -143,24 +138,15 @@ education:
             - Bullet point
 
 experiences:
-    title: Experiences
+    title: Professional Experience
     info:
-      - test00: test00
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Senior Network Engineer
+        time: February 2022 - June 2022
+        company: Vanilla Internet - Cape Town CBD.
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Was taken on at [vanilla internet service provider](https://www.vanilla.co.za/ "Vanilla internet"){:target="_blank"} as roll of Senior Network Engineer when permanent, during the probation period I primary looked over whole network, with the idea of admin, learnt the whole network infrastructure, and did support on ubnt/ubiquity devices and controllers at clients. Due to shortage of ubnt/ubiquity hardware was decided on tplink and I setup and tested tplink wireless devices and [controllers]( https://www.tp-link.com/za/business-networking/management-platform/omada-cloud-based-controller/ "Omada network controller"){:target="_blank"} for network wide rollout, and documented it. This is all devices over the wan network being setup and run from a controller, with all the needed configs to make the work of the installers as simple as possible, this was done. The technology or framework to do all this is called tplinks omada EAP series centralized management.<br><br>
+          **References:**<br>
+            - bullet one
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
