@@ -62,7 +62,8 @@ test:
 career-profile:
     title: Career Profile
     summary: |
-      ***PLEASE NOTE THIS IS ACTIVELY BEEN WORKED ON, STAGING ON PRODUCTION .. YEA !!!!*** <br>
+      **Resume for Daniel Schroder - site** [info](## "PLEASE NOTE THIS IS ACTIVELY BEEN WORKED ON......STAGING ON PRODUCTION...YEA !!!!
+      Links will open in new tabs, I tried to add as much info in the back info for better synapses to casual readers, also note this was also doen to learn/teachmyself about ruby/github/jekyll etc to host a CV that can be readily updated. " ) , [history](https://github.githistory.xyz/deeit/deeit.github.io/blob/deemain/_data/data.yml "History of changes made, this is a learning tool for me as well, opens in new tab" ){:target="_blank"} <br>
       ------------------------------------------<br>
       [Decades](## "1997-2023") IT experience, two [universities](## "UCT, UWC some Pentech"),
       [four ISPs](## "Internet Africa/MWEB/eNetworks/vanilla/sdwconnect"), numerous schools,
@@ -148,28 +149,64 @@ experiences:
           **References:**<br>
             - [Alan Levin](https://za.linkedin.com/in/alanslevin "Linked in link on new tab"){:target="_blank"} **Founder/CEO**
             - Diren Naaidoo, **Network manager.**
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+      - role: Network infrastructure manager
+        time: 2019 Jan - 2022 Jan
+        company: A&A Business Services
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Was initially contracted to build a single network for [Tableview high school](https://tvh.co.za/ "Tableview high school, tableview, Western Cape"){:target="_blank"}, but then afterwards was further contracted to roll out that network as a template for numerous other schools using mikrotik hardware. This includes SIP/VoIP, bandwidth management, security and monitoring, Active directory policy administration and implementations for network specific tasks. Also setup and deployed VoIP networks, took over administration of the larger unifi networks, access points and controllers. <br>
+          Started (and completed) moving as many schools as possible to what I saw as industry best practice for large complicated networks. This included vlanning off various critical parts of network onto their own networks and dhcp segments, routing  all these via routers and switches. Isolated critical parts of the larger networks. Subnetting or vlanning components, printers, voip devices, cameras, this was either for stability ( telephony ), or security ( cameras ). Also, as far as possible vlanned and separated wifi networks and enforced SSID attached to vlans for security. Students/Staff/Wifi/Cameras all separate. <br>
+          Simplified bandwidth management by marking traffic into bulk and low latency (VoIP, DNS etc). Most networks have two uplinks, 1G and 100megs, running in failover, and UPS. This ensures that a 1G uplink can easily operate on a busy Lan, or an office can operate comfortably with both incoming vpns, VoIP, office 365 and normal internet access.
+          Started rolling out IPv6 on Wi-Fi networks, tested on school Lans, surprisingly very few issues, single one was happy eyeballs for some browsers which was mainly due to staff not understanding Ipv6. IpV6 is going to become standard by mid-22, and made sure infrastructure configurations can roll it out. Standardizing on Ipv6 for WiFi SSIDs, since WiFi is 90% android, which does not care if it’s v4 or v6.
+          On windows part of networks used active directory network policies to mark traffic according to groups based on network access allowed. This allowed routers and access points to prioritize traffic, or for routing. Groups I use were staff/machine, or staff/student/machine and this only affected internet net access speeds and prioritization as well as routing.
+          Windows machine marked traffic based on user or machine access (like updates), router used this to create groups, assign to priority ques, or mark routing if uplink lines are assigned to individual groups. Also allowed me to quickly group network device ip addresses into groups joined to a domain as authenticated or not, as well as internet access for actual users, or just software running on machines, and manage them as groups, not hundreds of firewall rules, and assign non domains users to lowest priority.
+          Security was the difficult part, lot of scripting and automation to ensure no easy means to access all the networks from outside. This was mainly done by configuring all remote networks into one big network via a vpn, with syslog used to send all network events to a centralised server running a virtual system that automatically separates each stream into it’s own location, and creates a file for each day, going back a year. This is more than +20 routers, +100 switches, +100 access points, +200 VoIP devices and a few Pabxs. Once a day spot checks were done by sifting through logs and looking for the usual suspects. Known issues were scripted and run continuously to raise issues, once problem I came across is efficient automated notifications to all parties, most problems are already automatically raised but not acted on until a user complains. Incoming syslog from data all networks is about 10mb/s.
+          Network wide DNS was routed to Cloudflares family DNS (student wifi and labs) or Malware public servers, to catch any compromised devices or machines for the known attempts to phone home once plugged in. This is not a perfect solution, but does mitigate risk before virus software can kick in.
+          Were possible depending on router capabilities (CPUs) layer 7 was used to catch SIP probes as an example, more than 4 4xx code replies a minute was blocked. Torrents on wifi was also blocked based on layer 7, since torrents try any means possible to bypass standard blocks. As much as possible when users were firewalled, only there internet access was cut off, this is ensure they can at least function on local network while they wait for support. Where 1g+ internet access links for more than a few hundred users, optimized firewalls to ensure load did not effect latency.
+          Setup vpn (pptp/l2pt/IPsec ) access on all routers, and networks, for staff at home, as well as networking the whole network I administrate. The complete network was a big vpn I setup to make my life easier for administrations. It was done using OSPF over all possible routes between schools. This insured as long as two possible paths, no matter over what lines, connectivity to that network was still able. This also functions as a fully functional backup route for the whole network if primary internet link is down.
+          This also mapped all machines over all remote networks to ip address accessible from the “admin” network where I was based, or at home, this made monitoring as well as access to switches, access points, remote desktops or any other network access to any device possible over the entire live network. This was also used for staff access from home, using radius or user/pass to there part of the network. Important to note, all networks were based on the same network ranges, but remote network blocks are remapped to each network, this made it possible to have access to the whole network with no disruption to local network configurations which made support easier for staff.
+          Started rolling out NAS hardware specifically to make it possible to either run specialized disk access on busy servers possible (iSCSI), and to/or run controller/dns/critical software and services on the server so that there no disruptions for when servers are rebooted. A proper setup NAS server can have half of it fail and still function.
+          All unfi networks, checked once a week for problem areas and did what was needed to get wifi access acceptable. This involved disabling auto network optimization when networks to big, looking for strong overlap areas and reducing, or increasing levels if brown spots become obvious, disabled legacy support were not needed, and optimizing RSSI levels accepted or rejected to improve roaming to the point VoIP is capable. Standard admin on all wifi networks.
+          Some networks are:
+           - Tableview High school. 1200+/- network devices. 200+/- windows machines 400-500 wifi users, students, staff, guests vlanned and on there own SSIDs, 13 Access points, 23 vlanned VoIP phones, 11 Switch SFP+ (10G) backbone. Two vlanned 30 machine labs. Core router is a 39 core mikrotik.
+           - Parow High High School. 300+ devices, 123 windows machines, 80 wifi users, 6 ubiquity switches, one mikrotik router.
+           - Swartland High School. No wifi network, one PABX with a sip trunk, 80 Machines, two 30 machine labs.
+           - Dfmalan High School. 1300 network devices. 300+ Windows machines, three 30 machine labs, +700 wifi users, on three SSIDs, each on there own vlan and DHCP server. ( Staff/Students/Guests ). Students and guests no local LAN access, only Internet. Each fibered building on it’s own vlanned segment. 14 Ubiquiti edge switches, 23 access points, +25 VoIP phones that on there own vlanned network.
+          Other schools, as far as possible setup in the same method.
+           - Parow west school
+           - Parl boys primary
+           - Swartland low school
+           - De Kuilen high and primary school.
+           - Fairbairn college.
+           - Innofin financial.
+          Few others
+
+      - role: Developer
+        time: 2021 Jan - present.
+        company: Private
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Started branching into general systems administration for clients that varied from moving mail domains and exporting and importing mail to different providers, general Laravel/WordPress or other hosting admin, and building DC hosted linux servers for docker or just simple hosting. As well as SIP dialplans admin design and troubleshooting. Enjoy this work, exploring options.<span style="color:blue">some *blue* text</span>.
+      - role: Systems Administrator
+        time: 2013 Mar – 2013 Aug
+        company: OneDigitalMedia(co.za)
+        details: |
+          [Odm](https://www.OneDigitalMedia.com "One digital media"){:target="_blank"} develop and deploy software on large media screens throughout South Africa,customers include wimpy/spur/kfs/cape union mart etc, and the screens are maintained remotely by software developed at ODM, it was my task to simplify installations, and and facilitate the transitions from legacy linux systems to a newer standardized UBUNTU, which I did, by packaging the software into standard debian, and streamlining remote upgrades of packages so new realse can be rolled out over +8000 screens (wifi or 3g), a sensitive process, since a mistake can cost thousands in data.<br>
+          Developed and built a automated UBUNTU installation server that remotely booted  new units, formatted drive, placed a ubuntu installation on the new systems, installed the odm software, updated the system, and shut the new unit down ready for shipping, 15 Installations took around 15 minutes from boot till unit shutdown, no human intervention needed at all, prior installation staff had to boot off thumb drive, and do each unit manually, reducing a half an hour installation to 4 minutes (one unit), saving 20+ minutes. <br><br>
+          **References:**<br>
+          - Ross Simpson – **development team leader**
+          - Charles Parsons – **HR head**.
+      - role: Systems Administrator
+        time: 2012 Aug – 2013 Jan
+        company: Kingsley internet
+        details: |
+           - Setup system wide monitoring, zenoss .. for linux and a wireless network, snmp and traps, made sure issues were resolved and wrote reports for management as to solution and cuases.
+           - Dealt with all major escalations and made sure (as possible) repetitions not re-occur.
+           - Administered a wireless network, which included new sights, link optimization, stabilizing and where possible implement best practices, this included OSPF and MPLS for routing.
+           - Administered a ADSL network, bind, radius, and billing integration, also involved with billing issues that usually only I could resolve.
+           - Administered and optimized mail servers (15k+ active users) and monitored failover issues, and implemented performance changes for peak times.
+           - Was on call for all final escalations.
+      - role: Systems Administrator
+        time: 
+
 
 certifications:
       title: Certifications
