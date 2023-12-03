@@ -70,7 +70,7 @@ career-profile:
       infrastructure in the [financial industry](## "Maitland TRUST South Africa"), built and administrated mail systems, in [four centers](## "Maitland Trust - Cape Town, Durban, Johannesburg, Compuscan now Experian - techno park") in .za, built and administrated active directory and some azure infrastructure including security and policies.<br>
       Data-center experience, hardware deployment and administration, from
       appliances to servers, configuring, detailed know-how knowledge of all
-      aspects with regard to the administration of ISP’s infrastructure,
+      aspects with regard to the administration of ISPs infrastructure,
       written monitoring tools and with heads up notifications, proactive
       fault solving,<br>
       Working knowledge running wisps, this includes routing protocols used,
@@ -83,7 +83,7 @@ career-profile:
       well as experience with all the devices that connect to these
       controllers.<br>
       Build and deploy VoIP solutions, as well as manually building and
-      designing dialplans for software PABX’s, as well as configuring
+      designing dialplans for software PABXs, as well as configuring
       networks to support VoIP, including the Qos needed on infrastructure,
       including testing and load testing. As well administrating VoIP
       networks, especially the vlanning, and making sure Qos is operational
@@ -141,12 +141,13 @@ experiences:
     title: Professional Experience
     info:
       - role: Senior Network Engineer
-        time: February 2022 - June 2022
+        time: 2022 Feb - 2022 Jun
         company: Vanilla Internet - Cape Town CBD.
         details: |
-          Was taken on at [vanilla internet service provider](https://www.vanilla.co.za/ "Vanilla internet"){:target="_blank"} as roll of Senior Network Engineer when permanent, during the probation period I primary looked over whole network, with the idea of admin, learnt the whole network infrastructure, and did support on ubnt/ubiquity devices and controllers at clients. Due to shortage of ubnt/ubiquity hardware was decided on tplink and I setup and tested tplink wireless devices and [controllers]( https://www.tp-link.com/za/business-networking/management-platform/omada-cloud-based-controller/ "Omada network controller"){:target="_blank"} for network wide rollout, and documented it. This is all devices over the wan network being setup and run from a controller, with all the needed configs to make the work of the installers as simple as possible, this was done. The technology or framework to do all this is called tplinks omada EAP series centralized management.<br><br>
+          Was taken on at [vanilla internet service provider](https://www.vanilla.co.za/ "Vanilla internet"){:target="_blank"} as roll of Senior Network Engineer when permanent, during the probation period I primary looked over whole network, with the idea of admin, learnt the whole network infrastructure, and did support on ubnt/ubiquity devices and controllers at clients. Due to shortage of ubnt/ubiquity hardware was decided on tplink and I setup and tested tplink wireless devices and [controllers]( https://www.tp-link.com/za/business-networking/management-platform/omada-cloud-based-controller/ "Omada network controller"){:target="_blank"} for network wide roll-out, and documented it. This is all devices over the wan network being setup and run from a controller, with all the needed configs to make the work of the installers as simple as possible, this was done. The technology or framework to do all this is called tplinks omada EAP series centralized management.<br><br>
           **References:**<br>
-            - bullet one
+            - [Alan Levin](https://za.linkedin.com/in/alanslevin "Linked in link on new tab"){:target="_blank"} **Founder/CEO**
+            - Diren Naaidoo, **Network manager.**
       - role: Senior Software Engineer
         time: 2014 - 2015
         company: Google, London
