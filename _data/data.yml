@@ -63,7 +63,7 @@ career-profile:
     title: Career Profile
     summary: |
       **Resume for Daniel Schroder - site** [info](## "PLEASE NOTE THIS IS ACTIVELY BEEN WORKED ON......STAGING ON PRODUCTION...YEA !!!!
-      Links will open in new tabs, I tried to add as much info in the back info for better synapses to casual readers, also note this was also doen to learn/teachmyself about ruby/github/jekyll etc to host a CV that can be readily updated. " ) , [history](https://github.githistory.xyz/deeit/deeit.github.io/blob/deemain/_data/data.yml "History of changes made, this is a learning tool for me as well, opens in new tab" ){:target="_blank"} <br>
+      Links will open in new tabs, I tried to add as much info in the back info for better synapses to casual readers, also note this was also doen to learn/teachmyself about ruby/github/jekyll etc to host a CV that can be readily updated. This is edited on my laptop and then uploaded to microsots github were it's processed and deployed, corrections can be live in minutes with zero effort. " ) , [history](https://github.githistory.xyz/deeit/deeit.github.io/blob/deemain/_data/data.yml "History of changes made, this is a learning tool for me as well, opens in new tab" ){:target="_blank"}, [todo](## "Rewrite the ruby/jekyll code so that colors appear better and make certain sections of this template bold in the correct places, and remove anything not needed." )<br>
       ------------------------------------------<br>
       [Decades](## "1997-2023") IT experience, two [universities](## "UCT, UWC some Pentech"),
       [four ISPs](## "Internet Africa/MWEB/eNetworks/vanilla/sdwconnect"), numerous schools,
@@ -189,23 +189,123 @@ experiences:
         time: 2013 Mar – 2013 Aug
         company: OneDigitalMedia(co.za)
         details: |
-          [Odm](https://www.OneDigitalMedia.com "One digital media"){:target="_blank"} develop and deploy software on large media screens throughout South Africa,customers include wimpy/spur/kfs/cape union mart etc, and the screens are maintained remotely by software developed at ODM, it was my task to simplify installations, and and facilitate the transitions from legacy linux systems to a newer standardized UBUNTU, which I did, by packaging the software into standard debian, and streamlining remote upgrades of packages so new realse can be rolled out over +8000 screens (wifi or 3g), a sensitive process, since a mistake can cost thousands in data.<br>
-          Developed and built a automated UBUNTU installation server that remotely booted  new units, formatted drive, placed a ubuntu installation on the new systems, installed the odm software, updated the system, and shut the new unit down ready for shipping, 15 Installations took around 15 minutes from boot till unit shutdown, no human intervention needed at all, prior installation staff had to boot off thumb drive, and do each unit manually, reducing a half an hour installation to 4 minutes (one unit), saving 20+ minutes. <br><br>
-          **References:**<br>
-          - Ross Simpson – **development team leader**
-          - Charles Parsons – **HR head**.
+           - At [Odm](https://www.OneDigitalMedia.com "One digital media"){:target="_blank"} develop and deploy software on large media screens throughout South Africa,customers include wimpy/spur/kfs/cape union mart etc, and the screens are maintained remotely by software developed at ODM, it was my task to simplify installations, and and facilitate the transitions from legacy linux systems to a newer standardized UBUNTU, which I did, by packaging the software into standard debian, and streamlining remote upgrades of packages so new realse can be rolled out over +8000 screens (wifi or 3g), a sensitive process, since a mistake can cost thousands in data.<br>
+           - Developed and built a automated UBUNTU installation server that remotely booted  new units, formatted drive, placed a ubuntu installation on the new systems, installed the odm software, updated the system, and shut the new unit down ready for shipping, 15 Installations took around 15 minutes from boot till unit shutdown, no human intervention needed at all, prior installation staff had to boot off thumb drive, and do each unit manually, reducing a half an hour installation to 4 minutes (one unit), saving 20+ minutes. <br><br>
+           **References**
+             - Ross Simpson **development team leader**
+             - Charles Parsons **HR head**.
+
       - role: Systems Administrator
         time: 2012 Aug – 2013 Jan
         company: Kingsley internet
         details: |
-           - Setup system wide monitoring, zenoss .. for linux and a wireless network, snmp and traps, made sure issues were resolved and wrote reports for management as to solution and cuases.
-           - Dealt with all major escalations and made sure (as possible) repetitions not re-occur.
-           - Administered a wireless network, which included new sights, link optimization, stabilizing and where possible implement best practices, this included OSPF and MPLS for routing.
-           - Administered a ADSL network, bind, radius, and billing integration, also involved with billing issues that usually only I could resolve.
-           - Administered and optimized mail servers (15k+ active users) and monitored failover issues, and implemented performance changes for peak times.
-           - Was on call for all final escalations.
+         - Setup system wide monitoring, zenoss .. for linux and a wireless network, snmp and traps, made sure issues were resolved and wrote reports for management as to solution and causes.
+         - Dealt with all major escalations and made sure (as possible) repetitions not re-occur.
+         - Administered a wireless network, which included new sights, link optimization, stabilizing and where possible implement best practices, this included OSPF and MPLS for routing.
+         - Administered a ADSL network, bind, radius, and billing integration, also involved with billing issues that usually only I could resolve.
+         - Administered and optimized mail servers (15k+ active users) and monitored failover issues, and implemented performance changes for peak times.
+         - Was on call for all final escalations.<br><br>
+         **References**
+           - Sean de Gruchy – director
+           - Tim Huppert – support manager
       - role: Systems Administrator
-        time: 
+        time: 2010 Jan – 2012 Jul
+        company: eNetworks
+        details: |
+         - Worked under the technical manager, maintained and monitored systems used. Centos servers, Xen servers, cisco routers, HP switches, wifi devices and cloud xen servers.
+         - Managed and monitored all the unix systems, system tuning based on load, real time adjusting of resources, raising system issues (all devices) , writing in monitoring were necessary, writing scripts to monitor things like mailques, link stability and to post results to monitoring software like prtg, zenoss.
+         - Actively pre-empted issues, load, link instability, manage alerts, raise issues to the correct staff where necessary, advanced system monitoring, like cache efficiency, hosting server load efficiency, long term graphing of any load, protocol or speed.
+         - Implemented ISP wide SNMP configs, as well as trap management, and managed rerouting of notices, reducing spurious notices, and rewriting mibs
+         - Managed and monitored device backups, went in after new devices and configured anything that was not done, things like snmp, syslog , ntp and so forth.
+         - Daily network wide checks, sifted through reports and notices for anything serious, wrote systems to monitor and graph bandwidth, adjusted thresholds (which raised notices)
+         - Forensic reports on system failures, breaches or line failures, or any issue that causes an error somewhere and source of error to locate, extensive use of SNMP, syslog and SNMP traps to establish timelines of events.
+         - Fixed any issues on any Unix system ISP wide, and either fixed or located problems on switches routers and wan links, investigated issues on wireless links, channels, error rates.
+         - Did weekly scans of network and added any devices found to monitoring, set notice levels, went and checked device configuration, and made adjustments or raised changes that had to be made onsite to staff.
+         - Worked extensively on bandwidth issues, unix system tcp/ip stack adjusting, troubleshooting.
+         - Setup different SMP systems and adjusted for load, checked, adjusted and setup unix systems to use resources as efficiently as possible, and systems under heavy load, adjusted for higher efficiency, or removed source of high load, be it swap, non-tuned parameters like connections per second, memory usage and set all relevant graphs and thresholds , for wccp proxie systems, mail systems, web hosting servers.
+         - Picked up incorrectly setup unix systems, either fixed or referred back to staff, or setup templates for network wide implementation.
+         - Any general issue that affected any part of the network.<br><br>
+         **References**
+           - Jonothan Maliepaard – founder
+           - Jaap Schultan – tech director ( Currently Datacentix )
+           - Saul Stein – Technical manager
+      -  role: Systems Administrator
+         time: 2008 Feb – 2010 Dec
+         company: Secure link.
+         details: |
+          - Worked closely with the [Technical director](## "This must be the post I enjoyed the most, was based in techno park, and looked after a wireless network from technopark traversing gauteng, they had to close when primary contract with the government did not pay" ), and was instrumental in its redesign, roll-out of Wi-Fi WANs, and data-centre devices and servers, as well as built the name/mail servers and implemented the monitoring of the complete network, and designed the wan using multilink, wrote firewalls with full backup routines as well as designed the firewalls for gateway devices, as well as the day to day running of the complete network, systems and links.
+          - Maintained the Debian systems, located in JHB, and CPT Datacentres these were for bind (DNS), webservers, monitoring servers sip and radius. Also built and maintained the monitoring systems that monitored, escalated and notified mangers on the national networks. (Zenoss on Debian)
+          - Built and maintained the unix gateway systems that the ISP users accessed the internet with, which consisted of firewalls, proxy servers and multilinks for inter branch communications, as well as sip (VoIP) traffic links, media servers running on Debian.
+          - Closely involved with the Wi-Fi wan roll-outs, Mikrotik routers, setups, maintenance, and automation as well as scripting.
+          - Also built and ran the Debian systems that asterisk client servers as well as wrote the dialplans for VoIP links.
+          - Built the mail servers, which were based on postfix, database backed, with virus, spam scanners on separate systems, as well as the monitoring and daily reports of errors, based on postfix.
+          - Wrote all the scripts and systems (perl) for maintaining links (ADSL pools, and backup ISP links) with dynamic load balancing and load failover, as well as line failure detection and rerouting.
+           - Setting up of new remote sites, routing, upgrading of mikrotik, entering into the monitoring, routing and setups of public AP’s in the beginning, this has now been automated.
+           - Liaised with departments and managers on correcting and managing line faults, power failure notification, voltage, signal and temp faults, and made sure they were corrected, and raising issues before they become problematic.
+           - Maintained all the Linux systems default firewall set tings, and made changes were necessary.
+      -  role: Network administrator, firewall manager,
+         time: 2006 Feb – 2008 Feb testtt
+         company: University of the Western Cape (UWC)
+         details: |
+          - Responsible for ICSs critical services infrastructure, as well as ran the firewalls.
+          - Also rebuilt all the Unix servers, was closely involved with the Linux systems in a problem solving capacity, managed bandwidth, managed network access, managed the proxy systems, wrote extensive ACLs, and extensive server tuning, also implemented failover CARP based virtual systems, and did a lot of virtual NETAPP backed system implemented. Serviced 30k students.
+          - Was closely involved with developed and rolled systems and software built in-house, as well as worked closely with the then DBA on the platforms. (Primarily Oracle on Suse)
+          - Looked after the mail spools for the University of the Western Cape, this was qmail with custom, written plug-ins. These were initially Linux based, but were converted to FreeBSD virtual systems to cope with load (by me)
+          - Looked after internal and external DNS services, on both Suse and FreeBSD systems, and made all required system changes were needed, new requests and DNS changes.
+          - Looked after IPtable, and PF firewalls, as well as designed, maintained and looked after bandwidth requests from campus, the firewalls were also built with FWbuilder to ease departmental management overview, this included the Wi-Fi network (300 plus applications, the DMZ, links to UCT, pentech and affiliated institutions.
+          - Looked after, built and ran Linux and FreeBSD proxy servers throughput campus, this included advanced ACL, hot failovers, and load related maintenance.
+          - Designed and built all critical services hot fail over systems using CARP, Virtual systems booting off SAN backed file systems.
+          - Deployed and hardened new systems to go into the public DMZ, Linux (Ubuntu/Suse/Debian/FreeBSD/Solaris) as well as wrote and maintained all firewall considerations, as well as looked after the general security around the DMZ and firewalls.
+          - Worked closely with the developers in deploying live systems on Suse/Ubuntu and Solaris. (E-Learning, student systems, staff systems, and library databases.)
+          - Took care of all departmental special requests, also maintained and took care of the library special needs. (Web database access, Linux ezproxy servers, changes needed)
+          - Assisted with general network issues, as well as assisted on core network general admin, emergency routing, and failure correction, reporting and monitoring.
+          - Worked closely with DBA’s, as well as backup for emergency changes, mainly MySQL/Oracle and Postgress on Suse/Solaris Ubuntu servers.
+          - Generally maintained all the UNIX systems when time allowed, (About 150 in total) as well as the e-learning Solaris clusters.
+      -  role: Network & Systems admin.
+         time: 2004 Dec – 2006 Dec
+         company: University of Cape Town (UCT) Maths & Applied Maths Department.
+         details: |
+          - Built and ran two labs, one for [NASSP](https://www.star.ac.za/ "National Astrophysics Space Science Programme"){:target="_blank"}, one for the [Maths faculty](https://science.uct.ac.za/department-mathematics "Maths and Applied Maths at UCT"){:target="_blank"}, unix thin client based. Was responsible for the general maintenance, as well worked with lecturers, maintained math routines, did a lot of porting of software, graphical software that students used for astrophysics, built and ran the internet/mail systems, and worked with remote departments at other universities to facilitate visitors and exchange student assistance, as well as looked after the dept general Unix needs. Had to work with UCTs ICTS, lots of fights (Hi Andrew Alston back then :) friends now)
+          - Did a lot of high performance work, complex calculations, and lectures took place on the lab networks, as well as built and ran as well as tested a few cluster technologies for complex astrophysical calculations.
+          - The labs where two server failover with 30 points for server, with one able to carry 60 in event of failover. FreeBSD XServer based with Linux remote boot thin clients.
+          - Managed two labs of 30 workstations each. Workstations were customised Linux systems (customized for graphical speeds, and cluster computing) working off FreeBSD X based servers.
+          - Assisted students with (astrophysics) projects, this included general programming assistance, as well as porting lecturer software to local systems, running astrophysical based Linux apps off FreeBSD for load gains, porting C to IFC compilers for speed gains.
+          - Supported specialized maths apps (Matlab, Octave etc), also supported different word processes and plotting software (open office/gnuplot etc)
+          - General Unix support for the Maths dept, as well as ran the math Post Grad labs, ran internet access systems, printing maintenance and administration,
+          - Wrote and maintained the webservers for student needs, student project hosting, online labs status pages, free seats and general info needed remotely, and schedules.
+          - Liaised with the universities ICTS dept for student access issues.
+          - Liaised with the Observatory and SALT for visitors, network needs of travelling students.
+          - Deployed various clustering software for big computations that were needed, as well as massive image processing.<br><br>
+          **References**
+            - [Prof Peter Dunsby](https://science.uct.ac.za/node/214838/full?subsite=1310 "Was also faculty vice president back then" ){:target="_blank"}
+      -  role: Systems admin and network manager.
+         time: 2003 Jan – 2004 Aug
+         company: Maitland Trust (RSA branches)
+         details: |
+          - Maitland trust is/was the South African branch of the Maitland group, which is a private and corporate Client Services business
+          - Built the Server/client windows policy administrated active dir network throughout South Africa, three branches, with mail systems, firewalls, and wan links plus failover for links, with interbranch document sharing (over 60k plus documents) and very tight security (Active dir forced policies on all workstations), and firewalls for all the branches.
+          - Mail systems were in house, and again, FreeBSD based. The WANS where multilinked over IPv6, redundancy done via RipNg, with two way failover for each branch, to ensure all documents were readily available to staff that travelled or needed to work on remote documents.
+          - Built all the Unix servers for mail, security and wan links, deployed at all the South African branches, as well as looked after all the branches from Cape Town (70+ users throughout South Africa), was primary involved with looking after security, and monitoring.
+          - Built and administrated all the windows servers at all the branches, with WAN failovers.
+      -  role: Systems admin and network manager.
+         time: 1999 - 2004
+         company: Picardi Investments/South African Investments Limited.
+         details: |
+           Was involved with building and general maintenance of IT related tasks with the Investment companies, also ran a few personal projects from there (unix.za.net)
+      -  role: ISP support.
+         time: 1997 - 1999
+         company: UUNET Internet africa, MWEB, Dockside internet.
+         details: |
+          **At** for Dockside internet, as network admin, as well as general ISP related work, support and trouble shooting, this included client setups, routing (bgp table maintenance), firewall maintenance, and general ISP system admin duties. (DNS/mail hosting, dial in banks, setup, and general ISP security, left after they were bought out by Datapro I think it was. Based on the waterfront and also looked after the waterfront wan (client access, faults and general maintenance.)<br>
+          **At** Internet Africa (UUNET Internet Africa), did UNIX Support for about two years, back when ISPs where mainly unix based.<br>
+      -  role: Research Assistant
+         time: 1992 - 1996
+         company: Sea Fisheries research institute.
+         details: |
+          After school refused military service, was then sentenced in high court as a conscientious objector to three years community service and was sent to Sea Fisheries were I become involved with different aspects of the work done, namely building and deploying current metres while at sea and in workshops, and also took over running the satellite processing and receiving equipment for a Doctor Agenbach and was kept on after South Africa freed Mandela and abolished  compulsory military service.<br>
+          Sea Fisheries (3 years), where I worked on the Remote Sensing systems, was involved with Satellite data capture, processing, wrote software for graphical image manipulation. (The focus was infrared NOAA satellite data, I was assistant to a Dr Agenbach, and did all the low resolution infrared capturing, setting up, planning satellite capture passes, as well as liaised with ships as to where Ice cracks where on the South Pole, as well as Fishing vessels who wanted to know where the warm and cold water front for fishing. Also went to sea to deploy current meters, as well as assisted with general deep sea research. This started me off in IT directory after school were I passed matric.
+          Most of this work was to do research on climate changes (el nino effect) and for generating and managing red tide outbreaks on the lower west coast in South Africa.
+
 
 
 certifications:
@@ -333,11 +433,14 @@ skills:
       - name: Development.
         level: 60%
 
-      - name: Ruby on Rails
+      - name: Linux, Windows
         level: 85%
 
-      - name: Sketch & Photoshop
+      - name: FreeBSD/Bsd
         level: 60%
+
+      - name: NAS Administration
+        level: 70%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
