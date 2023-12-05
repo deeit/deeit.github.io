@@ -10,12 +10,12 @@ sidebar:
     position: right # Took a basic template, took out everything not needed,
     about: True     # then added/renamed all the hooks, and then uploaded to 
     education: True # github via git but worked on it locally.
+    skills: True     #Daniel - test
 
     # Profile information
     name: Daniel Schroder
     tagline: sysadmin
     avatar: profile.jpg  # Just do a "find . -type f -grep -H "stuff" {}\ to
-    test: test           # quickly find/replace to what you want to see live.      
 
     # Sidebar links
     email: daniel.schroder@gmail.com
@@ -41,7 +41,7 @@ sidebar:
         - idiom: English
           level: Native
 
-        - idiom: Afrikaanse
+        - idiom: Afrikanse
           level: Expert
 
     interests:
