@@ -31,6 +31,14 @@ sass:
 # Build settings
 compress-site: yes
 
+
+defaults:
+ - 
+    scope:
+      path: "README.md"
+    values:
+      permalink: "README.html"
+
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
